@@ -5,10 +5,10 @@
 	version="1.1.0" 
 	provider-name="4lb3rtO">
   <requires>
-    <!-- Those are the version on final release. Just depend on the python version -->
+    <!-- Those are the version on final release. Just depend on the python version for Betas/RCs -->
     <import addon="xbmc.python" version="2.19.0"/>	  
-    <!--<import addon="xbmc.json" version="6.20.0"/>
-    <import addon="xbmc.addon" version="14.0.0"/>-->
+    <import addon="xbmc.json" version="6.20.0"/>
+    <import addon="xbmc.addon" version="14.0.0"/>
   </requires>
   <extension 
 	point="xbmc.service" 
