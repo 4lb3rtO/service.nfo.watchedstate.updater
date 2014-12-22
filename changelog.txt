@@ -1,0 +1,9 @@
+v1.1.0 (Dec 22, 2014):
+- Kodi 14 (Helix) compatible
+- Added optional watched-tag for TinyMediaManager/MediaElch users
+
+v1.0.1 (Apr 02, 2014):
+- Fixed a bug when exiting XBMC
+
+v1.0.0 (Mar 27, 2014):
+- Initial release

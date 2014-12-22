@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>	
+	<category label="32000">
+		<setting id="xbmcip"        type="ipaddress" label="32001" default="127.0.0.1" />
+		<setting id="xbmcport"      type="number"    label="32002" default="9090" />
+		<setting id="watchedtag"    type="bool"      label="32003" default="false" />
+    <setting id="notification"  type="bool"      label="32004" default="true" />
+		
+		<setting label="32100" type="lsep" />
+		<setting label="32101" type="lsep" />
+		<setting label="32102" type="lsep" />
+		<setting type="sep" />
+		<setting label="32103" type="lsep" />
+    <setting label="32104" type="lsep" />
+	</category>
+</settings>

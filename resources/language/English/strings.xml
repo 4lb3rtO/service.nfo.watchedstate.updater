@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="32000">General</string>
+	<string id="32001">XBMC IP</string>
+	<string id="32002">XBMC JSONRPC TCP Port</string>
+  <string id="32003">Set watched-tag (for TMM/ME only)</string>
+	<string id="32004">Error Notifications</string>
+	
+	<string id="32100">Description:</string>	
+	<string id="32101">XBMC IP: localhost is 127.0.0.1</string>
+	<string id="32102">XBMC JSONRPC TCP Port: This port can be configured in the as.xml - Default: 9090</string>
+	<string id="32103">In System/Settings/Network/Services activate "Allow programs on this system to control XBMC" and "Allow programs on other systems to control XBMC".</string>
+  <string id="32104">TinyMediaManager/MediaElch users can set an optional watched-tag in the nfo files to avoid inconsistencies</string>
+</strings>
