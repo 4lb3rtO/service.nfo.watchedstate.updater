@@ -1,3 +1,6 @@
+v1.1.1 (Mar 12, 2015):
+- Create/Add new watched-tag if desired
+
 v1.1.0 (Dec 22, 2014):
 - Kodi 14 (Helix) compatible
 - Added optional watched-tag for TinyMediaManager/MediaElch users

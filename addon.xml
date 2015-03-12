@@ -2,7 +2,7 @@
 <addon 
   id="service.nfo.watchedstate.updater" 
   name="NFO Watchedstate Updater" 
-  version="1.1.0" 
+  version="1.1.1" 
   provider-name="4lb3rtO">
   <requires>
     <!-- Those are the version on final release. Just depend on the python version for Betas/RCs -->

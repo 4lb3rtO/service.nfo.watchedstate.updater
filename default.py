@@ -134,9 +134,9 @@ class NFOWatchedstateUpdater():
                 p = ET.SubElement(root, 'playcount')
             p.text = str(playcount)
 
-            if addon.getSetting('watchedtag') == 'true':
+            if addon.getSetting('changewatchedtag') == 'true':
                 w = root.find('watched')
-                if w is None:
+                if (w is None) and (addon.getSetting('createwatchedtag') == 'true'):
                     w = ET.SubElement(root, 'watched')
                 if playcount > 0:
                     w.text = 'true'
