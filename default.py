@@ -37,6 +37,7 @@ class NFOWatchedstateUpdater():
         
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.s.setblocking(1)
+        xbmc.sleep(int(delay))
         try:
             self.s.connect((self.XBMCIP, self.XBMCPORT))
         except Exception, e:
